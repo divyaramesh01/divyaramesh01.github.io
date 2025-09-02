@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project 1: Camera & Perspective</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    h1, h2 {
+        color: #1a1a1a;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .images img {
+        max-width: 250px;      /* smaller images */
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 10px 20px;
+        background: #4CAF50;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    .back-link:hover {
+        background: #45a049;
+        transform: translateY(-2px);
+    }
+</style>
+</head>
+<body>
+
+<h1>Project 0: Camera & Perspective</h1>
+
+<section>
+    <h2>Overview</h2>
+    <p>In this class, we want you to become friends with every pixel. The first step is to become friends with your camera—e.g., the one in your smartphone. The goal is to get an intuitive understanding of the relationship between perspective, focal length/zoom, and the center of projection. For now, just follow the steps below and take the photos as described.</p>
+</section>
+
+<section>
+    <h2>Part 1: Selfie — The Wrong Way vs. The Right Way</h2>
+    <p>Take a picture of your friend (or yourself) from close up. You get a typical distorted selfie image. Now step back several feet from your subject, zoom in, and take a second picture. Try to get the face in the second photo to be the same size as in the first photo. If done right, the second portrait should look much better than the first one. Think about why this is.</p>
+
+    <div class="images">
+        <img src="./media/normalportrait.jpeg" alt="Selfie: Wrong Way">
+        <img src="./media/zoominportrait.jpeg" alt="Selfie: Right Way">
+    </div>
+</section>
+
+<section>
+    <h2>Part 2: Architectural Perspective Compression</h2>
+    <p>Pick a nice view down a long street (or a walking path), zoom in, and take a photo. Then walk down the street in the direction of the first shot, and take a second photo without zoom, so that the scene appears approximately the same size. The first picture should look flattened or compressed. Think about why this happens.</p>
+
+    <div class="images">
+        <img src="./media/zoomlandscape.jpeg" alt="Zoomed Architecture">
+        <img src="./media/nozoomlandscape.jpeg" alt="Walked Architecture">
+    </div>
+</section>
+
+<section>
+    <h2>Part 3: The Dolly Zoom</h2>
+    <p>This classic film effect (also called the "Vertigo shot") involves moving the camera back while zooming in, keeping the subject roughly the same size. Take several still photos (4–8+) while moving the camera and zooming in, then combine them into an animated GIF.</p>
+
+    <div class="images">
+        <img src="./media/dolly.gif" alt="Dolly Zoom Frame 1">
+        
+    </div>
+</section>
+
+<a class="back-link" href="../index.html">← Back to Home</a>
+
+</body>
+</html>
